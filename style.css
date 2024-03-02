@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.game-container {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+}
+
+#rock {
+  background: url(img/rock.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#paper {
+  background: url(img/paper.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#scissors {
+  background: url(img/scissors.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

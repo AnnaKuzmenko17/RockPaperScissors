@@ -7,9 +7,10 @@ let result;
 
 const choices = [
   'rock',
-  'scissors',
   'paper',
+  'scissors',
 ]
+
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
   userChoice = e.target.id;
